@@ -1,0 +1,11 @@
+extends ../layouts/pages
+block append head
+    block title
+        - var title='Page 2'; // Page title
+
+block content
+    include ../components/header.pug
+    p Page2
+
+    include ../layouts/script.pug
+    

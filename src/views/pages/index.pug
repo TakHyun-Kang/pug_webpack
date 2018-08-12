@@ -1,0 +1,12 @@
+extends ../layouts/pages.pug
+block append head
+    block title
+        - var title='Webpack Template';
+
+block content
+    include ../components/header.pug
+    p Hi
+    a( href = 'page_2.html' ) Page 2
+
+    include ../layouts/script.pug
+    
